@@ -27,5 +27,5 @@ jobs:
           push: true
           tags: |
             manacasp/rotten-potatoes:latest
-            manacasp/rotten-potatoes: ${{ github.run_number }}
+            manacasp/rotten-potatoes:${{ github.run_number }}
           
